@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz@16..144&display=swap');
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@import "tailwindcss";
+
+
+/* index.css */
+body {
+  background-color: #000;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+}
+
+
+.montagu-slab-test {
+  font-family: "Montagu Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
