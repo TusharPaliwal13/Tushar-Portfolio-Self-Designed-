@@ -1,12 +1,45 @@
-# React + Vite
+# 🎨 Self-Designed Creative Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal and elegant portfolio website **fully self-designed and developed** by [Tushar Paliwal], using **React**, **Tailwind CSS**, and **Framer Motion** — built to reflect creativity, smooth interactions, and professional aesthetics.
 
-Currently, two official plugins are available:
+🚀 **Live Demo**: [View Site](https://your-username.github.io/self-designed-portfolio)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🖌️ Why This Portfolio?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This is not a template. It’s a **handcrafted website** made from scratch to express my personal brand, frontend skills, and creative design sense — blending smooth animations, dark UI, and responsive layouts.
+
+---
+
+## ✨ Key Features
+
+- ⚡ Fully Self-Designed UI
+- 🎥 Smooth Framer Motion Animations
+- 🎯 Responsive Design for All Devices
+- 🖱️ Custom Animated Cursor
+- 🚀 Page Transitions (Framer AnimatePresence)
+- 💼 Clean Work Showcase Section
+- 🎨 Built with React + Tailwind + Framer Motion
+
+---
+
+## 📁 Pages & Structure
+
+- `/` - Hero, Expertise, Work, Footer
+- `/about` - About Me
+- `/contact` - Contact Form (Formspree/EmailJS)
+- `components/` - Reusable UI Components
+- `context/` - Search or state management (optional)
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- **Framer Motion**
+- **React Router**
+
+---
+
