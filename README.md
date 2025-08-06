@@ -2,7 +2,7 @@
 
 A minimal and elegant portfolio website **fully self-designed and developed** by [Tushar Paliwal], using **React**, **Tailwind CSS**, and **Framer Motion** — built to reflect creativity, smooth interactions, and professional aesthetics.
 
-🚀 **Live Demo**: [View Site](https://your-username.github.io/self-designed-portfolio)
+🚀 **Live Demo**: [View Site]([https://your-username.github.io/self-designed-portfolio](https://tusharportfolio13.netlify.app/))
 
 ---
 
