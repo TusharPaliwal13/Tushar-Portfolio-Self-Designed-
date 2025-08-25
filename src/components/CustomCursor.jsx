@@ -10,8 +10,16 @@ const CustomCursor = () => {
   const y = useSpring(cursorY, springConfig);
 
   const [isHovering, setIsHovering] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    // detect mobile or touch device
+    const mobileCheck =
+      window.matchMedia("(max-width: 768px)").matches || "ontouchstart" in window;
+    setIsMobile(mobileCheck);
+
+    if (mobileCheck) return; // stop adding cursor events for mobile
+
     const moveCursor = (e) => {
       cursorX.set(e.clientX - 10);
       cursorY.set(e.clientY - 10);
@@ -40,9 +48,11 @@ const CustomCursor = () => {
     };
   }, [cursorX, cursorY]);
 
+  if (isMobile) return null; 
+
   return (
     <motion.div
-      className={`fixed top-0 left-0 bg-white rounded-full pointer-events-none z-[9999] mix-blend-difference`}
+      className="fixed top-0 left-0 bg-white rounded-full pointer-events-none z-[9999] mix-blend-difference"
       style={{
         x,
         y,

@@ -17,6 +17,12 @@ const Work = () => {
       image: '/previews/estateflow.png',
       link: 'https://estateflowrealestatetp.netlify.app',
     },
+    {
+      name: 'Brisk AI',
+      description: 'AI SaaS for Content Creation',
+      image: '/previews/briskai.png',
+      link: 'https://brisk-ai-nine-vert.vercel.app'
+    },
   ];
 
   return (
@@ -57,7 +63,9 @@ const Work = () => {
               >
                 {project.name}
               </h3>
-              <p className="text-zinc-400 text-sm md:text-base">{project.description}</p>
+              <p className="text-zinc-400 text-sm md:text-base">
+                {project.description}
+              </p>
             </a>
           ))}
         </motion.div>

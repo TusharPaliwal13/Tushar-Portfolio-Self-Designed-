@@ -9,7 +9,7 @@ import Work from './components/Work';
 import Footer from './components/Footer';
 import Contact from './pages/Contact';
 import About from './pages/About';
-import CustomCursor from './components/CustomCursor'; // 👈 import custom cursor
+import CustomCursor from './components/CustomCursor'; // 
 
 const AnimatedRoutes = () => {
   const location = useLocation();
